@@ -34,8 +34,10 @@ jobs:
       # Install Allure CLI
     - name: Install Allure CLI
       run: |
-        sudo apt-get update
-        brew install allure
+        wget -qO- https://github.com/allure-framework/allure2/releases/download/2.27.0/allure-2.27.0.tgz | tar -xz
+        sudo mv allure-2.27.0 /opt/allure
+        sudo ln -s /opt/allure/bin/allure /usr/bin/allure
+        allure --version
 
     - name: Generate Allure Report
       run: allure generate --single-file allure-results -o allure-report --clean
