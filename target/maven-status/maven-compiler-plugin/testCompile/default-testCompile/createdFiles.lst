@@ -1,0 +1,6 @@
+com\blaiseExample\selenium\pages\LoginPage.class
+com\blaiseExample\selenium\tests\LoginPageTest.class
+com\blaiseExample\selenium\tests\BaseTest.class
+com\blaiseExample\selenium\pages\BasePage.class
+com\blaiseExample\selenium\pages\LandingPage.class
+com\blaiseExample\selenium\pages\signupPage.class
