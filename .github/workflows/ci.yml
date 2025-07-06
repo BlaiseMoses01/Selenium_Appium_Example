@@ -31,11 +31,6 @@ jobs:
     - name: Build and run tests
       run: mvn clean test
 
-    - name: Install Allure Commandline
-      uses: simple-elf/allure-commandline-action@v2
-      with:
-        allure_version: 2.27.0
-
     - name: Generate Allure Report
       run: mvn allure:report
 
