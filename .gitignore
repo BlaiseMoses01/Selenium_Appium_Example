@@ -1,0 +1,6 @@
+# Maven build output
+/target/
+
+# Allure results
+/allure-results/
+/allure-report/
