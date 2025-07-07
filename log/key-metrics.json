@@ -1,0 +1,15 @@
+[ {
+  "duration" : 4922.72,
+  "eventName" : "sdk:hook",
+  "startTime" : 1.5687863935182E9,
+  "success" : true,
+  "worker" : 75,
+  "failure" : null,
+  "details" : null,
+  "entryType" : "measure",
+  "platform" : 1,
+  "command" : null,
+  "testName" : "backToHomeTrigger",
+  "hookType" : "afterAll",
+  "cli" : true
+} ]
